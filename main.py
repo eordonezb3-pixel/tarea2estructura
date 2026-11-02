@@ -61,7 +61,7 @@ def cargar_datos_prueba(lista):
         if lista.añadir(Pasajero(*valores)):
             agregados += 1
     print(f'  ✓ {agregados} pasajeros cargados; total: {lista.longitud()}')
-####
+
 
 def mostrar_opciones(titulo, extras=False):
     print(f'\n========== {titulo} ==========')
